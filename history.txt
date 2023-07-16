@@ -1,0 +1,22 @@
+   0 pwd
+   1 mkdir /home/animals
+   2 tree /home
+   3 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish
+   4 tree /home
+   5 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt
+   6 tree /home
+   7 touch /tmp/adam.txt
+   8 mkdir /home/humans
+   9 touch /tmp/evA.txt
+  10 mv /tmp/evA.txt /opt/eve.txt
+  11 tree /opt
+  12 mv /opt/eve.txt /home/humans/eve.txt
+  13 tree /home
+  14 mv /tmp/adam.txt /home/humans/adam.txt
+  15 tree /home
+  16 history > /home/history
+  17 cat /home/history
+  18 export > /home/history
+  19 cat /home/history
+  20 export_file history
+  21 history > history.txt
