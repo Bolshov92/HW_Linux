@@ -1,0 +1,48 @@
+#!/bin/bash
+
+		for run in {1..10}
+		do
+		echo $run | date +"%H:%M:%S" 
+		echo %run |ps -ef |wc -l	
+		#sleep 5
+		done
+
+	#cat /proc/cpuinfo >> /root/sleeper.sh
+processor	: 0
+vendor_id	: AuthenticX86
+cpu family	: 5
+model		: 4
+model name	: 05/04
+stepping	: 3
+cpu MHz		: 100.000
+fdiv_bug	: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu tsc msr pae cx8 cmov clflush mmx fxsr sse sse2 rdtscp cpuid svm npt
+bugs		:
+bogomips	: 200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 32 bits physical, 32 bits virtual
+power management:
+
+	
+	#cat /etc/os-release |head -1 >> /root/sleeper.sh
+
+NAME="Alpine Linux"
+	
+	#cat /etc/os-release |head -1 |awk '{print$1}' |grep -o "Alpine" >> /root/sleeper.sh
+
+
+Alpine
+
+
+		for add in {50..100}
+		do
+		file=${add}.txt
+		touch $file
+		done
